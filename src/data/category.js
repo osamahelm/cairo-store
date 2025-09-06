@@ -1,62 +1,125 @@
+// export const categories = [
+//     {
+//         id:1,
+//         title: "الجوالات",
+//         image: "/images/products/category/m12.jpg",
+//     },
+//     {
+//         id:2,
+//         title: "اللابتوبات",
+//         image: "/images/products/category/l4.jpg",
+//     },
+//     {
+//         id:3,
+//         title: "أجهزه للارتداء",
+//         image: "/images/products/category/o19.jpg",
+//     },
+//     {
+//         id:4,
+//         title: "السماعات",
+//         image: "/images/products/category/o20.jpg",
+//     },
+//     {
+//         id:5,
+//         title: "الأثاث",
+//         image: "/images/products/category/chair.jpg",
+//     },
+//     {
+//         id:6,
+//         title: "الأحذیه الریاضیه",
+//         image: "/images/products/category/jordan2.png",
+//     },
+//     {
+//         id:7,
+//         title: "الساعات",
+//         image: "/images/products/category/o24.jpg",
+//     },
+//     {
+//         id:8,
+//         title: "قرطاسیه",
+//         image: "/images/products/category/o4.jpg",
+//     },
+//     {
+//         id:9,
+//         title: "أزیاء نسائیه",
+//         image: "/images/products/category/pngaaa.png",
+//     },
+//     {
+//         id:10,
+//         title: "أزیاء رجالیه",
+//         image: "/images/products/category/pngaaam.png",
+//     },
+//     {
+//         id:11,
+//         title: "ملابس ریاضیه",
+//         image: "/images/products/category/sport.png",
+//     },
+//     {
+//         id:12,
+//         title: "النظافه",
+//         image: "/images/products/category/o23.jpg",
+//     },
+// ]
+
 export const categories = [
     {
-        id:1,
+        id: 1,
         title: "الجوالات",
-        image: "/images/products/category/m12.jpg",
+        image: process.env.PUBLIC_URL + "/images/products/category/m12.jpg",
     },
     {
-        id:2,
+        id: 2,
         title: "اللابتوبات",
-        image: "/images/products/category/l4.jpg",
+        image: process.env.PUBLIC_URL + "/images/products/category/l4.jpg",
     },
     {
-        id:3,
+        id: 3,
         title: "أجهزه للارتداء",
-        image: "/images/products/category/o19.jpg",
+        image: process.env.PUBLIC_URL + "/images/products/category/o19.jpg",
     },
     {
-        id:4,
+        id: 4,
         title: "السماعات",
-        image: "/images/products/category/o20.jpg",
+        image: process.env.PUBLIC_URL + "/images/products/category/o20.jpg",
     },
     {
-        id:5,
+        id: 5,
         title: "الأثاث",
-        image: "/images/products/category/chair.jpg",
+        image: process.env.PUBLIC_URL + "/images/products/category/chair.jpg",
     },
     {
-        id:6,
+        id: 6,
         title: "الأحذیه الریاضیه",
-        image: "/images/products/category/jordan2.png",
+        image: process.env.PUBLIC_URL + "/images/products/category/jordan2.png",
     },
     {
-        id:7,
+        id: 7,
         title: "الساعات",
-        image: "/images/products/category/o24.jpg",
+        image: process.env.PUBLIC_URL + "/images/products/category/o24.jpg",
     },
     {
-        id:8,
+        id: 8,
         title: "قرطاسیه",
-        image: "/images/products/category/o4.jpg",
+        image: process.env.PUBLIC_URL + "/images/products/category/o4.jpg",
     },
     {
-        id:9,
+        id: 9,
         title: "أزیاء نسائیه",
-        image: "/images/products/category/pngaaa.png",
+        image: process.env.PUBLIC_URL + "/images/products/category/pngaaa.png",
     },
     {
-        id:10,
+        id: 10,
         title: "أزیاء رجالیه",
-        image: "/images/products/category/pngaaam.png",
+        image: process.env.PUBLIC_URL + "/images/products/category/pngaaam.png",
     },
     {
-        id:11,
-        title: "ملابس ریاضیه",
-        image: "/images/products/category/sport.png",
+        id: 11,
+        title: "ملابس ریاضيه",
+        image: process.env.PUBLIC_URL + "/images/products/category/sport.png",
     },
     {
-        id:12,
+        id: 12,
         title: "النظافه",
-        image: "/images/products/category/o23.jpg",
+        image: process.env.PUBLIC_URL + "/images/products/category/o23.jpg",
     },
-]
+];
