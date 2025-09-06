@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/cairo-store/static/css/main.b92b3389.css",
-    "main.js": "/cairo-store/static/js/main.69c7789a.js",
+    "main.js": "/cairo-store/static/js/main.a4b59d25.js",
     "index.html": "/cairo-store/index.html",
     "main.b92b3389.css.map": "/cairo-store/static/css/main.b92b3389.css.map",
-    "main.69c7789a.js.map": "/cairo-store/static/js/main.69c7789a.js.map"
+    "main.a4b59d25.js.map": "/cairo-store/static/js/main.a4b59d25.js.map"
   },
   "entrypoints": [
     "static/css/main.b92b3389.css",
-    "static/js/main.69c7789a.js"
+    "static/js/main.a4b59d25.js"
   ]
 }
