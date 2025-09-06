@@ -41,15 +41,16 @@ import NotFound from './pages/NotFound/NotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    
+    <BrowserRouter basename="/cairo-store">
       <Header />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/products' element={<Products />} />
-        <Route path='/products/:id' element={<SingleProduct />} />
-        <Route path='/cart' element={<Cart />} />
-        <Route path='/special-offers/:id' element={<SpecialOffersPage />} />
-        <Route path='*' element={<NotFound />} /> {/* أي رابط مش موجود */}
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<Products />} />
+        <Route path="/products/:id" element={<SingleProduct />} />
+        <Route path="/cart" element={<Cart />} />
+        <Route path="/special-offers/:id" element={<SpecialOffersPage />} />
+        <Route path="*" element={<NotFound />} /> 
       </Routes>
       <Footer />
     </BrowserRouter>
